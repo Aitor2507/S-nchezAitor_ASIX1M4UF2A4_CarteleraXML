@@ -1,0 +1,285 @@
+<menu>
+
+    <plato tipo="entrante">
+      <nombre>Ceviche Clásico</nombre>
+      <precio>28.00</precio>
+      <descripcion>Pescado fresco marinado en limón, ají, cebolla roja y camote</descripcion>
+      <calorias>250</calorias>
+      <ingredientes>
+        <categoria>sin gluten</categoria>
+        <categoria>pescado</categoria>
+        <categoria>picante</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Tiradito Nikkei</nombre>
+      <precio>32.00</precio>
+      <descripcion>Cortes finos de pescado con salsa de ají amarillo y leche de tigre</descripcion>
+      <calorias>230</calorias>
+      <ingredientes>
+        <categoria>sin gluten</categoria>
+        <categoria>pescado</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Causa Limeña</nombre>
+      <precio>22.00</precio>
+      <descripcion>Puré de papa amarilla con ají, relleno de pollo o mariscos</descripcion>
+      <calorias>320</calorias>
+      <ingredientes>
+        <categoria>sin gluten</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Papa a la Huancaína</nombre>
+      <precio>18.00</precio>
+      <descripcion>Papas con salsa cremosa de queso fresco y ají amarillo</descripcion>
+      <calorias>280</calorias>
+      <ingredientes>
+        <categoria>lácteo</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Anticuchos de Corazón</nombre>
+      <precio>25.00</precio>
+      <descripcion>Brochetas de corazón de res marinadas en ají panca y vinagre</descripcion>
+      <calorias>300</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+        <categoria>sin gluten</categoria>
+        <categoria>Destacado</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Tamal Verde</nombre>
+      <precio>15.00</precio>
+      <descripcion>Masa de maíz rellena de pollo con salsa de cilantro</descripcion>
+      <calorias>350</calorias>
+      <ingredientes>
+        <categoria>sin gluten</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Tequeños</nombre>
+      <precio>16.00</precio>
+      <descripcion>Palitos de queso envueltos en masa de trigo</descripcion>
+      <calorias>280</calorias>
+      <ingredientes>
+        <categoria>lácteo</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="entrante">
+      <nombre>Choros a la Chalaca</nombre>
+      <precio>24.00</precio>
+      <descripcion>Mejillones con maíz, cebolla y limón</descripcion>
+      <calorias>200</calorias>
+      <ingredientes>
+        <categoria>mariscos</categoria>
+        <categoria>sin gluten</categoria>
+      </ingredientes>
+    </plato>
+
+    <!-- ========== SOPAS (4 platos) ========== -->
+    <plato tipo="sopa">
+      <nombre>Chupe de Camarones</nombre>
+      <precio>35.00</precio>
+      <descripcion>Sopa espesa con camarones, huevo, leche y ají panca</descripcion>
+      <calorias>400</calorias>
+      <ingredientes>
+        <categoria>lácteo</categoria>
+        <categoria>mariscos</categoria>
+        <categoria>Destacado</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="sopa">
+      <nombre>Caldo de Gallina</nombre>
+      <precio>20.00</precio>
+      <descripcion>Caldo tradicional con gallina, fideos y hierbas aromáticas</descripcion>
+      <calorias>250</calorias>
+      <ingredientes>
+        <categoria>ave</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="sopa">
+      <nombre>Sopa a la Minuta</nombre>
+      <precio>18.00</precio>
+      <descripcion>Sopa rápida con carne molida, huevo y verduras</descripcion>
+      <calorias>280</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="sopa">
+      <nombre>Menestrón</nombre>
+      <precio>22.00</precio>
+      <descripcion>Sopa de frijoles con verduras y carne</descripcion>
+      <calorias>320</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+        <categoria>legumbres</categoria>
+      </ingredientes>
+    </plato>
+
+    <!-- ========== PRINCIPALES (10 platos) ========== -->
+    <plato tipo="principal">
+      <nombre>Lomo Saltado</nombre>
+      <precio>38.00</precio>
+      <descripcion>Salteado de lomo de res con cebolla, tomate y papas fritas</descripcion>
+      <calorias>500</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+        <categoria>Destacado</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Aji de Gallina</nombre>
+      <precio>32.00</precio>
+      <descripcion>Gallina desmenuzada en salsa cremosa de ají amarillo</descripcion>
+      <calorias>450</calorias>
+      <ingredientes>
+        <categoria>ave</categoria>
+        <categoria>lácteo</categoria>
+        <categoria>sin gluten</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Arroz con Mariscos</nombre>
+      <precio>40.00</precio>
+      <descripcion>Arroz verde con mix de mariscos y cilantro</descripcion>
+      <calorias>480</calorias>
+      <ingredientes>
+        <categoria>mariscos</categoria>
+        <categoria>Destacado</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Seco de Cordero</nombre>
+      <precio>42.00</precio>
+      <descripcion>Guiso de cordero con frijoles y culantro</descripcion>
+      <calorias>550</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Tacu Tacu con Lomo</nombre>
+      <precio>36.00</precio>
+      <descripcion>Revuelto de arroz y frijoles con lomo de res y salsa criolla</descripcion>
+      <calorias>520</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+        <categoria>legumbres</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Pollo a la Brasa</nombre>
+      <precio>30.00</precio>
+      <descripcion>Pollo marinado en especias y horneado al carbón</descripcion>
+      <calorias>400</calorias>
+      <ingredientes>
+        <categoria>ave</categoria>
+        <categoria>sin gluten</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Rocoto Relleno</nombre>
+      <precio>28.00</precio>
+      <descripcion>Rocoto relleno de carne molida, queso y hierbas</descripcion>
+      <calorias>380</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+        <categoria>lácteo</categoria>
+        <categoria>picante</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Cau Cau</nombre>
+      <precio>34.00</precio>
+      <descripcion>Guiso de mondongo con papa, ají amarillo y hierbabuena</descripcion>
+      <calorias>420</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Tallarines Verdes con Bistec</nombre>
+      <precio>35.00</precio>
+      <descripcion>Pasta con salsa de albahaca y carne asada</descripcion>
+      <calorias>580</calorias>
+      <ingredientes>
+        <categoria>carne</categoria>
+        <categoria>lácteo</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="principal">
+      <nombre>Chaufa de Mariscos</nombre>
+      <precio>38.00</precio>
+      <descripcion>Arroz frito estilo chino-peruano con mariscos</descripcion>
+      <calorias>450</calorias>
+      <ingredientes>
+        <categoria>mariscos</categoria>
+      </ingredientes>
+    </plato>
+
+    <!-- ========== POSTRES (4 platos) ========== -->
+    <plato tipo="postre">
+      <nombre>Suspiro a la Limeña</nombre>
+      <precio>16.00</precio>
+      <descripcion>Manjarblanco con merengue de vino oporto</descripcion>
+      <calorias>350</calorias>
+      <ingredientes>
+        <categoria>lácteo</categoria>
+        <categoria>Destacado</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="postre">
+      <nombre>Mazamorra Morada</nombre>
+      <precio>12.00</precio>
+      <descripcion>Postre de maíz morado con frutas y especias</descripcion>
+      <calorias>280</calorias>
+      <ingredientes>
+        <categoria>vegano</categoria>
+        <categoria>sin gluten</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="postre">
+      <nombre>Picarones</nombre>
+      <precio>14.00</precio>
+      <descripcion>Rosquillas de camote y zapallo con miel de chancaca</descripcion>
+      <calorias>320</calorias>
+      <ingredientes>
+        <categoria>vegano</categoria>
+      </ingredientes>
+    </plato>
+
+    <plato tipo="postre">
+      <nombre>Arroz con Leche</nombre>
+      <precio>10.00</precio>
+      <descripcion>Arroz cocido en leche con canela y pasas</descripcion>
+      <calorias>300</calorias>
+      <ingredientes>
+        <categoria>lácteo</categoria>
+      </ingredientes>
+    </plato>
+</menu>
