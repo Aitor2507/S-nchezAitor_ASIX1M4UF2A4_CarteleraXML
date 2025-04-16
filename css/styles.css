@@ -32,3 +32,11 @@ h2 {
     font-size: 0.9rem;
     margin-bottom: 5px;
 }
+/* Asegurar que todas las imágenes tengan el mismo tamaño */
+.menu-img {
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    border: 1px solid #ddd;
+}

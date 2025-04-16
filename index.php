@@ -63,9 +63,9 @@ $tipoSeleccionado = isset($_GET['tipo']) ? $_GET['tipo'] : '';
             echo '<div class="menu-item mb-3">';
             // Mostrar la imagen del plato
             if (!empty($plato->imagen)) {
-                echo '<img src="' . $plato->imagen . '" class="img-fluid mb-3" alt="' . $plato->nombre . '">';
+                echo '<img src="' . $plato->imagen . '" class="img-fluid menu-img mb-3" alt="' . $plato->nombre . '">';
             } else {
-                echo '<img src="img/default.jpg" class="img-fluid mb-3" alt="Imagen no disponible">';
+                echo '<img src="img/default.jpg" class="img-fluid menu-img mb-3" alt="Imagen no disponible">';
             }
             echo '<h5 class="text-danger">' . $plato->nombre . '</h5>';
             echo '<p>' . $plato->descripcion . '</p>';
