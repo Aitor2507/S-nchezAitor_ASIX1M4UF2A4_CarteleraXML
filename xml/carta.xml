@@ -1,5 +1,4 @@
 <menu>
-
     <plato tipo="entrante">
       <nombre>Ceviche Clásico</nombre>
       <precio>28.00</precio>
@@ -10,6 +9,7 @@
         <categoria>pescado</categoria>
         <categoria>picante</categoria>
       </ingredientes>
+      <imagen>img/ceviche_cl.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -21,6 +21,7 @@
         <categoria>sin gluten</categoria>
         <categoria>pescado</categoria>
       </ingredientes>
+      <imagen>img/nikkei.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -31,6 +32,7 @@
       <ingredientes>
         <categoria>sin gluten</categoria>
       </ingredientes>
+      <imagen>img/causa_l.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -41,6 +43,7 @@
       <ingredientes>
         <categoria>lácteo</categoria>
       </ingredientes>
+      <imagen>img/papa_h.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -53,6 +56,7 @@
         <categoria>sin gluten</categoria>
         <categoria>Destacado</categoria>
       </ingredientes>
+      <imagen>img/anticucho_c.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -63,6 +67,7 @@
       <ingredientes>
         <categoria>sin gluten</categoria>
       </ingredientes>
+      <imagen>img/tamal_v.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -73,6 +78,7 @@
       <ingredientes>
         <categoria>lácteo</categoria>
       </ingredientes>
+      <imagen>img/tequeños.jpg</imagen>
     </plato>
 
     <plato tipo="entrante">
@@ -84,9 +90,9 @@
         <categoria>mariscos</categoria>
         <categoria>sin gluten</categoria>
       </ingredientes>
+      <imagen>img/pollo_b.jpg</imagen>
     </plato>
 
-    <!-- ========== SOPAS (4 platos) ========== -->
     <plato tipo="sopa">
       <nombre>Chupe de Camarones</nombre>
       <precio>35.00</precio>
@@ -97,6 +103,7 @@
         <categoria>mariscos</categoria>
         <categoria>Destacado</categoria>
       </ingredientes>
+      <imagen>img/chupe_c.jpg</imagen>
     </plato>
 
     <plato tipo="sopa">
@@ -107,6 +114,7 @@
       <ingredientes>
         <categoria>ave</categoria>
       </ingredientes>
+      <imagen>img/caldo_g.jpg</imagen>
     </plato>
 
     <plato tipo="sopa">
@@ -117,6 +125,7 @@
       <ingredientes>
         <categoria>carne</categoria>
       </ingredientes>
+      <imagen>img/sopa_m.jpg</imagen>
     </plato>
 
     <plato tipo="sopa">
@@ -128,9 +137,9 @@
         <categoria>carne</categoria>
         <categoria>legumbres</categoria>
       </ingredientes>
+      <imagen>img/menestron.jpg</imagen>
     </plato>
 
-    <!-- ========== PRINCIPALES (10 platos) ========== -->
     <plato tipo="principal">
       <nombre>Lomo Saltado</nombre>
       <precio>38.00</precio>
@@ -140,6 +149,7 @@
         <categoria>carne</categoria>
         <categoria>Destacado</categoria>
       </ingredientes>
+      <imagen>img/lomo_s.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -152,6 +162,7 @@
         <categoria>lácteo</categoria>
         <categoria>sin gluten</categoria>
       </ingredientes>
+      <imagen>img/aji_g.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -163,6 +174,7 @@
         <categoria>mariscos</categoria>
         <categoria>Destacado</categoria>
       </ingredientes>
+      <imagen>img/arroz_m.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -173,6 +185,7 @@
       <ingredientes>
         <categoria>carne</categoria>
       </ingredientes>
+      <imagen>img/seco_c.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -184,6 +197,7 @@
         <categoria>carne</categoria>
         <categoria>legumbres</categoria>
       </ingredientes>
+      <imagen>img/tacu_l.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -195,6 +209,7 @@
         <categoria>ave</categoria>
         <categoria>sin gluten</categoria>
       </ingredientes>
+      <imagen>img/pollo_b.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -207,6 +222,7 @@
         <categoria>lácteo</categoria>
         <categoria>picante</categoria>
       </ingredientes>
+      <imagen>img/rocoto_r.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -217,6 +233,7 @@
       <ingredientes>
         <categoria>carne</categoria>
       </ingredientes>
+      <imagen>img/cau_c.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -228,6 +245,7 @@
         <categoria>carne</categoria>
         <categoria>lácteo</categoria>
       </ingredientes>
+      <imagen>img/tallarines_v.jpg</imagen>
     </plato>
 
     <plato tipo="principal">
@@ -238,9 +256,9 @@
       <ingredientes>
         <categoria>mariscos</categoria>
       </ingredientes>
+      <imagen>img/chaufa_c.webp</imagen>
     </plato>
 
-    <!-- ========== POSTRES (4 platos) ========== -->
     <plato tipo="postre">
       <nombre>Suspiro a la Limeña</nombre>
       <precio>16.00</precio>
@@ -250,6 +268,7 @@
         <categoria>lácteo</categoria>
         <categoria>Destacado</categoria>
       </ingredientes>
+      <imagen>img/suspiro_l.jpg</imagen>
     </plato>
 
     <plato tipo="postre">
@@ -261,6 +280,7 @@
         <categoria>vegano</categoria>
         <categoria>sin gluten</categoria>
       </ingredientes>
+      <imagen>img/mazamorra_m.jpg</imagen>
     </plato>
 
     <plato tipo="postre">
@@ -271,6 +291,7 @@
       <ingredientes>
         <categoria>vegano</categoria>
       </ingredientes>
+      <imagen>img/picarones.jpg</imagen>
     </plato>
 
     <plato tipo="postre">
@@ -281,5 +302,6 @@
       <ingredientes>
         <categoria>lácteo</categoria>
       </ingredientes>
+      <imagen>img/arroz_l.jpg</imagen>
     </plato>
 </menu>
