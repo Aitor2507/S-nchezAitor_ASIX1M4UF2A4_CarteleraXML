@@ -1,38 +1,32 @@
-/* Fondo general */
 body {
-    background-color: #000; /* Fondo negro */
-    color: #fff; /* Texto blanco */
+    background-color: #000; 
+    color: #fff; 
 }
 
-/* Títulos de las secciones */
 h2 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-    border-bottom: 2px solid #dc3545; /* Línea roja */
+    border-bottom: 2px solid #dc3545; 
     padding-bottom: 5px;
 }
 
-/* Elementos del menú */
 .menu-item {
-    border-bottom: 1px solid #444; /* Línea gris */
+    border-bottom: 1px solid #444;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
-/* Títulos de los platos */
 .menu-item h5 {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #dc3545; /* Rojo */
+    color: #dc3545; 
 }
 
-/* Descripción y detalles */
 .menu-item p {
     font-size: 0.9rem;
     margin-bottom: 5px;
 }
-/* Asegurar que todas las imágenes tengan el mismo tamaño */
 .menu-img {
     width: 200px; 
     height: 150px; 

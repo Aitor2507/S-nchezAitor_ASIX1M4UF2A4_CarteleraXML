@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Menú Peruano</title>
@@ -61,7 +61,6 @@ $tipoSeleccionado = isset($_GET['tipo']) ? $_GET['tipo'] : '';
         if ($tipoSeleccionado === '' || $tipoSeleccionado === (string)$plato['tipo']) {
             echo '<div class="col-lg-4 col-md-6 mb-4">';
             echo '<div class="menu-item mb-3">';
-            // Mostrar la imagen del plato
             if (!empty($plato->imagen)) {
                 echo '<img src="' . $plato->imagen . '" class="img-fluid menu-img mb-3" alt="' . $plato->nombre . '">';
             } else {
@@ -73,7 +72,34 @@ $tipoSeleccionado = isset($_GET['tipo']) ? $_GET['tipo'] : '';
             echo '<p><strong>Calorías:</strong> ' . $plato->calorias . ' kcal</p>';
             echo '<p><strong>Ingredientes:</strong> ';
             foreach ($plato->ingredientes->categoria as $ingrediente) {
-                echo '<span class="badge bg-secondary me-1">' . $ingrediente . '</span>';
+                $icon = '';
+                switch (strtolower($ingrediente)) {
+                    case 'lácteo':
+                        $icon = '<i class="fas fa-cheese"></i>';
+                        break;
+                    case 'sin gluten':
+                        $icon = '<i class="fas fa-check-circle"></i>';
+                        break;
+                    case 'pescado':
+                        $icon = '<i class="fas fa-fish"></i>';
+                        break;
+                    case 'carne':
+                        $icon = '<i class="fas fa-drumstick-bite"></i>';
+                        break;
+                    case 'mariscos':
+                        $icon = '<i class="fas fa-shrimp"></i>';
+                        break;
+                    case 'picante':
+                        $icon = '<i class="fas fa-pepper-hot"></i>';
+                        break;
+                    case 'vegano':
+                        $icon = '<i class="fas fa-leaf"></i>';
+                        break;
+                    default:
+                        $icon = '<i class="fas fa-utensils"></i>';
+                        break;
+                }
+                echo $icon . ' ' . $ingrediente . '<br>';
             }
             echo '</p>';
             echo '</div>';
